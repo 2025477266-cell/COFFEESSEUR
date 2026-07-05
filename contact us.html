@@ -1,0 +1,94 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=2.0">
+    <title>COFFEESSEUR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <div class="header-left">
+        <img src="images/COFFEESSEUR LOGO.jpeg" alt="COFFEESSEUR" class="logo" width="50" height="50" button onclick="location.href='home.html'">
+        <h6>COFFEESSEUR</h6> 
+    </div>
+    <nav>  
+    <ul>  
+        <li><a href="home.html">Home</a></li>
+        <li class="has-dropdown">
+            <a href="Chain Cafes.html">Chain Cafes</a>
+            <ul class="dropdown">
+                <li><a href="Cafe Reviews.html">Reviews</a></li>
+            </ul>
+        </li>
+        <li class="has-dropdown">
+            <a href="Local Cafes.html">Local Cafes</a>
+            <ul class="dropdown">
+                <li><a href="Local Cafe Review.html">Reviews</a></li>
+            </ul>
+        </li>
+        <li><a href="about us.html">About Us</a></li>
+        <li><a href="contact us.html">Contacts</a></li>
+    </li>
+    <li class="has-dropdown">
+            <a href="index.html"> Languages</a>
+            <ul class="dropdown"> 
+                <li><a href="index.html"> English</a></li>
+                <li><a href="index_bm.html">Bahasa Melayu</a></li>
+            </li>
+            </ul>
+        </a>
+    </ul>
+</nav>
+</header>
+
+
+    <main>
+        <h1>CONTACT US</h1>
+
+        <!-- Contact Information -->
+        <section id="contact-info">
+            <h2>Get In Touch</h2>
+            <p>We'd love to hear from you! Reach out to us with any questions or feedback. Contact us if you too want to be part of COFFEESSEUR'S Cafe Directory!</p>
+            <address>
+                <p><strong>OUR MAIN HQ AND CONTACT INFORMATION</strong></p>
+                <img src="images/download.jpg" alt="Cafe Location Photo" width="300" height="200" style="display: block; margin: 0 auto;">
+                <p>Our Operating Hours: 9AM - 9PM EVERYDAY</p>
+                <p>10U Shah Alam</p>
+                <p>Selangor, Malaysia</p>
+                <p>Phone: (60+) 123-4567</p>
+                <p>Email: info@cozyc CoffeeCafe.com</p>
+
+                <p> COFFEESSEUR OWNER</p>
+                <p> Siti Aminah binti Rithzal - 2025477266 - 010-440 2019 - 477266@gmail.com</p>
+                <p> COFFEESSEUR FOUNDERS </p>
+                <p> MIMI & HANA & JIHA </p>
+            </address>
+        </section>
+
+        <section>
+            <form
+                action="https://formspree.io/f/{FORM_ID}"
+                class="fs-form"
+                 target="_top"
+                 method="POST"
+                 >
+            <div class="fs-field">
+                <label class="fs-label" for="name">Your Name</label>
+                <input class="fs-input" id="name" name="name" />
+            </div>
+            <div class="fs-field">
+                <label class="fs-label" for="email">Your Email</label>
+                <input class="fs-input" id="email" name="email" required />
+            </div>
+            <div class="fs-field">
+                <label class="fs-label" for="message">Message Us</label>
+                <textarea class="fs-textarea" id="message" name="message"></textarea>
+                <p class="fs-description">We usually respond within 1-2 business days.</p>
+            </div>
+            <div class="fs-button-group">
+                <button class="fs-button" type="submit">Send</button>
+            </div>
+    </form>
+        </section>
+    </main>       
